@@ -15,6 +15,7 @@ package() {
     srcdir=$srcdir/files
     dir=$pkgdir/etc/skel
     install -dm755 $dir
-    cp -r $srcdir/{.config,.kde4} $dir
+    cp -r $srcdir/{.config,.kde4} $dir/
+    cp $srcdir/.zshrc $dir/
 }
 
