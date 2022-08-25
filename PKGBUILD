@@ -9,7 +9,7 @@ url="https://github.com/LeonidPilyugin/kawaii-config"
 license=('GPL3')
 groups=('kawaii')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/LeonidPilyugin/$pkgname/releases/download/v$pkgver/files.tar.gz")
-sha256sums=('bdd6ee468a18d723e2289c7fd662210c8219dbb356b86a2fb04dc9f6c3922d85')
+sha256sums=('7e5674baac76d47dd5dc064813ee1c91eb667179f03736d5f331e6e6955c025a')
 
 package() {
     srcdir=$srcdir/files
