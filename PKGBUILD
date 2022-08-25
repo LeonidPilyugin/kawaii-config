@@ -1,14 +1,15 @@
 # Maintainer: Leonid Pilyugin  <l.pilyugin04@gmail.com>
 
 pkgname=kawaii-config
-pkgver=1.0
+pkgver=1.1
 pkgrel=1
 pkgdesc='Kawaii config files for MenheraOS'
 arch=('x86_64')
+url="https://github.com/LeonidPilyugin/kawaii-config"
 license=('GPL3')
 groups=('kawaii')
-source=("${pkgname}-${pkgver}.tar.gz::https://github.com/LeonidPilyugin/$pkgname/releases/download/v$pkgver/files.tar.gz")
-sha256sums=('e1d0e0625903ae09d06614520a726f8d504f48c489192a3958109acda34b661d')
+source=("$pkgname-$pkgver.tar.gz::https://github.com/LeonidPilyugin/$pkgname/releases/download/v$pkgver/files.tar.gz")
+sha256sums=('bdd6ee468a18d723e2289c7fd662210c8219dbb356b86a2fb04dc9f6c3922d85')
 
 package() {
     srcdir=$srcdir/files
