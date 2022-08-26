@@ -4,12 +4,12 @@ pkgname=kawaii-config
 pkgver=1.1
 pkgrel=1
 pkgdesc='Kawaii config files for MenheraOS'
-arch=('x86_64')
-url="https://github.com/LeonidPilyugin/kawaii-config"
-license=('GPL3')
 groups=('kawaii')
+url='https://github.com/LeonidPilyugin/kawaii-config'
+arch=('x86_64')
+license=('GPL3')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/LeonidPilyugin/$pkgname/releases/download/v$pkgver/files.tar.gz")
-sha256sums=('7df5d90434ded909cc88447dd4afb7e99360bc67bad0fe3b4e244bef4194fa85')
+sha256sums=('61164b1155b3022f72a43ab4edbe619aa2be6758e23136b294a511f886eec859')
 
 package() {
     srcdir=$srcdir/files
