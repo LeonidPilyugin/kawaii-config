@@ -136,10 +136,10 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
-ColorSchemeHash=6f619d06782a0838c6c254238c3ba6eede7ebf2b
+ColorSchemeHash=b3e34bc12d2f6584da133e558e5fb5ddfbae1540
 
 [KDE]
-LookAndFeelPackage=org.kde.kawaii.desktop
+LookAndFeelPackage=neco.desktop
 
 [WM]
 activeBackground=227,229,231

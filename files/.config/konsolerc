@@ -4,6 +4,11 @@ DefaultProfile=Kawaii.profile
 [Favorite Profiles]
 Favorites=Kawaii.profile
 
+[General]
+ConfigVersion=1
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
 [UiSettings]
 ColorScheme=KawaiiDark
-WindowColorScheme=KawaiiDark
